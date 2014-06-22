@@ -17,4 +17,6 @@ group :test do
   gem 'webmock',        '~> 1.13.0'
   gem 'rspec',          '~> 2.14'
   gem 'simplecov',      '~> 0.7'
+  gem 'mutant', git: 'https://github.com/JordiPolo/mutant', branch: 'feature/html_report'
+  gem 'mutant-rspec', git: 'https://github.com/JordiPolo/mutant', branch: 'feature/html_report'
 end
